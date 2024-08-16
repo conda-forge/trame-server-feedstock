@@ -1,5 +1,5 @@
 {% set name = "trame-server" %}
-{% set version = "3.0.3" %}
+{% set version = "3.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trame-server-{{ version }}.tar.gz
-  sha256: 0261bfca4e2807406ae57b8bc5ce200286606ffd8c57d7b866bc7ab45be2398b
+  sha256: 7c062abd18aa6f76cccf1e23f36bc5152ad59dde3f6cdbe32cd73c07798b975b
 
 build:
   number: 0
