@@ -11,7 +11,7 @@ source:
   sha256: 4b5d38c17f6c2e8a7bd4644a1d45e2bd79df9829c4ae24e987633754748311f2
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -21,7 +21,7 @@ requirements:
     - python >=3.7
   run:
     - python >=3.7
-    - wslink >=2
+    - wslink >=2.2.1
     - more-itertools
 
 test:
