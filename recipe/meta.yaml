@@ -24,6 +24,7 @@ requirements:
     - python >={{ python_min }}
     - wslink >=2.2.1
     - more-itertools
+    - trame-common >=1.2.3
 
 test:
   imports:
