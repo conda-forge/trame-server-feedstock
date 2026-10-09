@@ -1,5 +1,5 @@
 {% set name = "trame-server" %}
-{% set version = "4.0.0" %}
+{% set version = "4.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 0bcf91816a1f43d497b7ad8bce774d5e9cceab13ee844369df17f66da1245e83
+  sha256: cad870dd0c63e7df143cf315b00a4c0c6da11965f26abb31c2a86b1bb0de3e2b
 
 build:
   number: 0
