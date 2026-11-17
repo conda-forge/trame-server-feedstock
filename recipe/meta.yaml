@@ -11,7 +11,7 @@ source:
   sha256: 7caadfed42c1bcd54f0065b7403bb814110b0c048c88e1ed4153444a6a864c73
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -22,9 +22,9 @@ requirements:
     - hatchling
   run:
     - python >={{ python_min }}
-    - wslink >=2.2.1
+    - wslink >=2.5.8,<3
     - more-itertools
-    - trame-common >=1.2.3
+    - trame-common >=1.2.7
 
 test:
   imports:
